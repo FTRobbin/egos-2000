@@ -1,10 +1,11 @@
 # BOARD can be a7_35t, a7_100t or s7_50
 BOARD = a7_35t
 QEMU = qemu-system-riscv32
+TOOLCHAIN = GNU
 
 ifeq ($(TOOLCHAIN), GNU)
 # The official GNU toolchain binaries
-RISCV_CC = riscv32-unknown-elf-gcc -march=rv32im_zicsr
+RISCV_CC = riscv32-unknown-elf-gcc -march=rv32i_zicsr
 OBJDUMP = riscv32-unknown-elf-objdump
 OBJCOPY = riscv32-unknown-elf-objcopy
 else
