@@ -38,7 +38,7 @@ char* kernel_processes[] = {
 */
 #define NINODE 16
 char* contents[] = {
-                    "./   0 ../   0 home/   1 bin/   6 ",
+                    "./   0 ../   0 home/   1 bin/   6 README 5",
                     "./   1 ../   0 yunhao/   2 rvr/   3 lorenzo/   4 ",
                     "./   2 ../   1 README   5 ",
                     "./   3 ../   1 ",
